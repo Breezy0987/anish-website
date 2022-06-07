@@ -1,0 +1,157 @@
+h1 {
+    color: white; 
+    border-color: rgb(145, 97, 25);
+    border-radius: 30px;
+    
+    
+    
+
+}
+.logo {
+    width: 400px;
+    height: 75px;
+    
+}
+.main-header {
+    background-color: #87423c;
+    background-size: 36px
+}
+.navigation {
+    background-color: black;
+    text-align: left;
+    
+}
+.navigation a {
+    color: white;
+    background-size: 26px;
+    text-decoration: none;
+    padding: 12px;
+    display: inline-block;
+    background-image: url("");
+
+} 
+.navigation a:hover {
+    color:#4d1d18;
+    background-color: #555;
+}
+
+body {
+    background-color: #87423c;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+       
+}
+.banner {
+    background-image: url("back_beach.jpg");
+    aspect-ratio: 16/5;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-items: center;
+    
+    
+}
+.banner h1 {
+    font-size: 36x;
+    color: white;
+    text-shadow: black 2px 2px 1px; 
+}
+.social a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin: 0 10px; 
+    text-align: center;
+    
+}
+.social {
+    text-align: center;
+}
+.social a:hover {
+    color: #555;
+}
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 30px;
+   /* margin-top: 30px; */
+    margin: 30px;
+    padding: 10px;
+    background-color:#87423c ;
+    
+}
+.card img {
+    max-width: 100%;
+}
+.card image {
+    aspect-ratio: 4/2.5;
+    overflow: hidden;
+}
+.banner.contact {
+    background-image: url("graphics/jay-kudva-IE9PKXWpRGU-unsplash.jpg");
+    padding:0px;
+}
+
+.content.contact {
+    grid-template-columns: 1fr 2fr 1fr; 
+}
+#contact-form {
+    grid-template-columns: auto;
+    grid-column-start: 2;
+    background-color: rgba(248, 244, 244, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+}
+/* form styles */
+#contact-form > label {
+    display: block;
+    font-weight: bold;
+
+}
+
+#contact-form > input,
+#contact-form > select, 
+#contact-from > textarea {
+    min-width: 100%;
+    margin-bottom: 20px;
+    padding: 30px;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: solid 1px rgba(248, 244, 244, 0.534);
+    
+}
+#contact-form >input:focus,
+ #contact-form > select:focus,
+  #contact-form > textarea:focus 
+{
+
+    outline: rgb(0, 195, 255) solid 1px;
+}
+.checkbox, .radio {
+    padding: 15px 0px 
+
+}
+.banner2{
+    background-image: url("back_beach.jpg");
+    aspect-ratio: 16/5;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-items: center;       
+}
+ .news {
+     grid-template-columns: 1fr 1fr;
+     display: grid;
+     padding: 100px;
+     
+ } 
+ .youtube {
+     padding-left: 350px;
+     padding-right: 50px;
+     padding-top: 30px;
+     padding-bottom: 30px;
+     
+ }
+ 
+
